@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Abdullah Al Mashwood</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/time4.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+
+  <!-- <link rel="stylesheet" href="css/demo.css" type="text/css" media="screen"> -->
+  <link rel="stylesheet" href="css/timeliner.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="inc/colorbox.css" type="text/css" media="screen">
+  <script type="text/javascript" src="inc/colorbox.js"></script>
+  <script type="text/javascript" src="js/timeliner.js"></script>
+
+</head>
+
+
+<body>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+
+$('.head,.headgit,.headkag').hover(function(){
+     $(this).addClass('animated shake');
+  }, function() {
+    $(this).removeClass('animated shake');
+  });
+
+$.timeliner({});
+      $.timeliner({
+        timelineContainer: '#timeline-js',
+        timelineSectionMarker: '.milestone',
+        oneOpen: true,
+        startState: 'flat',
+        expandAllText: '+ Show All',
+        collapseAllText: '- Hide All'
+      });
+      // Colorbox Modal
+      $(".CBmodal").colorbox({inline:true, initialWidth:100, maxWidth:682, initialHeight:100, transition:"elastic",speed:750});
+
+});
+</script>
+
+
+<!-- Parallax portion -->
+<div class="pimg1">
+  <div class="intro">
+    <img src="img/pro.png" alt="Avatar" class="cen_pic"  data-toggle="tooltip" title="Abdullah">
+    <h3 class="intronm">Abdullah Al Mashwood</h3>
+    <div class="iconhd">
+      <a href="mailto:" target="_blank" data-toggle="tooltip" title="mail"><i class="head fa fa-envelope"></i></a>
+      <a href="https://github.com/Mashwood" target="_blank" data-toggle="tooltip" title="github"><i class="headgit fa fa-github"></i></a>
+      <a href="#" target="_blank" data-toggle="tooltip" title="linkedin"><i class="head fa fa-linkedin"></i></a>
+      <a href="#" target="_blank" data-toggle="tooltip" title="twitter"><i class="head fa fa-twitter"></i></a>
+    </div>
+  </div>
+</div>
+<!-- Parallax portion end -->
+
+
+<!-- Education -->
+<div class="container-fluid">
+    <div class="container">
+   
+        <h1 id="timeline1"><center>Education</center></h1>
+        <hr class="soft"><br><br>
+     <ul class="timeline1">
+        <li>
+           <div class="timeline-badge danger"><i class="fa fa-graduation-cap"></i></div>
+          
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title"><b>Master of Science in Physics</b></h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i><b>    January 2017</b></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Department of Physics and Astronomy<br>
+                University of Lethbridge,<br>Lethbridge, Alberta, Canada
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="fa fa-graduation-cap"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title"><b>Master of Science in Physics</b></h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i><b>    May 2014</b></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Shahjalal University of Science and Technology,<br>Sylhet, Bangladesh</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge success"><i class="fa fa-graduation-cap"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title"><b> Bachelor of Science in Physics</b></h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i><b>    January 2012</b></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Shahjalal University of Science and Technology,<br>Sylhet, Bangladesh</p>
+            </div>
+          </div>
+        </li>
+              
+    </ul>
+    <br><br>
+    <hr class="soft">
+</div>
+</div>
+<!-- Education end -->
+
+
+<!-- Research Experience -->
+<div class="container">
+    <h1 class="project"><center>Research Experience</center></h1>
+    <hr class="soft">
+    <div id="timeline" class="timeline-container">
+
+      <button class="timeline-toggle">+ expand all</button>
+      <br class="clear">
+
+      <div class="timeline-wrapper">
+        <h2 class="timeline-time"><span>Research Assistantship (University of Lethbridge)</span></h2>
+        <dl class="timeline-series">
+          <dt id="19540517" class="timeline-event"><a>September 2014- January 2017</a></dt>
+          <dd class="timeline-event-content" id="19540517EX">
+            <p>
+<b>&#10022</b>	Infrared spectroscopic research using both laboratory measurements and data analytics.<br>
+<b>&#10022</b>	Reading data files in Python, data cleaning and processing as well as data formatting techniques for analysis.<br>
+<b>&#10022</b>	Knowledge and experience of data analytics and language processing toolkits and packages in Python (matplotlib, numpy, scipy, nltk, sklearnetc.).<br>
+<b>&#10022</b>	Worked with linear and non-linear regression models for predictive analysis.<br>
+<b>&#10022</b>	Experience working with Levenberg–Marquardt algorithm for modeling in Python.<br>
+<b>&#10022</b>	Experience with Gaussian, Lorentzian, Voigt and other non-Voigt statistical models.<br>
+<b>&#10022</b>	Error budget and uncertainty analysis for determining goodness of model.<br>
+<b>&#10022</b>	Data interpretation and presentation experience.<br>
+<b>&#10022</b>	Software troubleshooting and debugging experience in Python, R and Matlab.<br>
+</p>
+              <br class="clear">
+          </dd><!-- /.timeline-event-content -->
+        </dl><!-- /.timeline-series -->
+      </div><!-- /.timeline-wrapper -->
+
+
+       <div class="timeline-wrapper">
+        <h2 class="timeline-time"><span>Journal Publication</span></h2>
+        <dl class="timeline-series">
+          <dt id="19540518" class="timeline-event"><a>September 2014- January 2017</a></dt>
+          <dd class="timeline-event-content" id="19540518EX">
+          
+            <p>
+            <b>&#10022</b> Abdullah Al Mashwood, Adriana Predoi-Cross, V. Malathy Devi, Hoimonti Rozario, Brant Billinghurst “Measurement and computations of line shape parameters for the 12201←03301, 11101←10002 and 12201←11102 self-broadened CO<sub>2</sub> Q-branches”, Journal of Molecular Spectroscopy, <b>https://doi.org/10.1016/j.jms.2017.08.009</b><br><br>
+            <b>&#10022</b> Koorosh Esteki, Abdullah Al Mashwood, Jeanna Buldyreva , Adriana Predoi-Cross, , Olmo Guerrero, Neeraj Prakash, Anna Dudaryonok, Nina Lavrentieva, Dylan Sutherland “Collisional line-shape parameters and their temperature dependence for the ν<sub>1</sub> + ν<sub>3</sub> band of C<sub>2</sub>H<sub>2</sub> perturbed by CO<sub>2</sub>”, Journal of Quantitative Spectroscopy and Radiative Transfer, <b>http://dx.doi.org/10.1016/j.jqsrt.2017.02.002</b>
+            </p>
+              <br class="clear">
+          </dd><!-- /.timeline-event-content -->
+        </dl><!-- /.timeline-series -->
+      </div><!-- /.timeline-wrapper -->
+
+
+<div class="timeline-wrapper">
+        <h2 class="timeline-time"><span>Machine Learning</span></h2>
+        <dl class="timeline-series">
+          <dt id="19540519" class="timeline-event"><a></a></dt>
+          <dd class="timeline-event-content" id="19540519EX">
+            <p>
+            <b>&#10022</b>	Experienced in applying ANN for data analysis in Python and R.<br>
+<b>&#10022</b>	Deep understanding of supervised and unsupervised ML techniques.<br>
+<b>&#10022</b>	Worked on different clustering methods.<br>
+<b>&#10022</b>	Working knowledge of K nearest neighbors, decision tree, random forest etc.<br>
+<b>&#10022</b>	Knowledge of dimension reduction techniques for optimizing solution.
+</p>
+              <br class="clear">
+          </dd><!-- /.timeline-event-content -->
+        </dl><!-- /.timeline-series -->
+      </div><!-- /.timeline-wrapper -->
+     <br class="clear">
+    </div><!-- /#timelineContainer -->
+   <br>
+    <br>
+    </div><!-- /.container -->
+  <hr class="soft">
+
+<!-- Research Experience end -->
+
+
+
+
+<!-- Job Experience -->
+<div class="container-fluid">
+    <div class="container">
+         <h1 class="project"><center>Job Experience</center></h1>
+         <hr class="soft"><br>
+         <div class="projdiv">
+         <div id="timeline" class="timeline-container2">
+          <br class="clear">
+         <div class="timeline-wrapper2">
+         <h2 class="timeline-time"><span>Data Scientist at Nanoprecise Sci. Corp.</span></h2>
+
+         <blockquote>Edmonton research park, AB<br><i class="glyphicon glyphicon-time"></i>  January 2018- May 2018<br><br>
+            <p>
+             <b>&#10022</b> Experience of developing and deploying AWS cloud based real-time data analytics software in the production environment.<br>
+<b>&#10022</b>	Experience of building SERVER and UI to make interactive dashboard for user-end.<br>
+<b>&#10022</b>	Successfully implemented several Artificial Neural Network models for health diagnosis of rotating machines using vibration data.<br>
+<b>&#10022</b>	Worked with sophisticated signal and data processing techniques FFT, EMD, EEMD etc.<br>
+<b>&#10022</b>	Worked with time domain predictive models like ARIMA and dimensionality reduction techniques like PCA.<br> 
+<b>&#10022</b>	Successfully implemented AI model in AWS cloud EC2 instance for real-time analysis of sensor extracted data.<br>
+<b>&#10022</b>	Experience of querying AWS S3 database real-time.<br>
+<b>&#10022</b>	Familiarity and working knowledge of AWS cloud architecture for IOT applications.<br>
+<b>&#10022</b>	Web scraping and automating the process of feature extraction for training models. <br>
+<b>&#10022</b>	Debugging and troubleshooting programs for quality assurance.</p>
+</blockquote>
+         </div>
+           <br class="clear">
+         </div><br><br>
+  <hr class="soft">
+</div></div></div>
+  <!-- Job Experience end -->
+
+
+  <!-- Web Development Experience -->
+
+    <div class="container">
+         <h1 class="project"><center>Web Development Experience</center></h1>
+         <hr class="soft"><br>
+
+         <div class="listdv">
+          <br class="clear">
+ 
+          <ul class="list">
+          <li><b>&#10022</b>  Successfully built a web application using Node Js, Vue Js and PostgreSQL database.</li>
+          <li>&#10022</b>	Successfully built multi-word, multi-command CLI application using Yargs, Commander Js and MongoDB database server.</li>
+          <li>&#10022</b>	Experience working with Express Js for building backend server.</li>
+          <li>&#10022</b>	Experience working with Routes.</li>
+          <li>&#10022</b>	Experience using Git to push and pull files from repository.</li>
+          <li>&#10022</b>	Experience using Eslint to apply good coding practises.</li>
+          </ul>
+         
+         </div>
+           <br class="clear">
+         </div><br><br>
+  
+ <hr class="soft">
+<!-- Web Development Experience end-->
+
+
+<!-- Technical Skills -->
+<div class="container-fluid">
+    <div class="container">
+         <h1 class="project"><center>Technical Skills</center></h1>
+         <hr class="soft"><br>
+
+         <div class="listdv">
+          <br class="clear">
+
+          <ul class="list">
+          <li><b>&#10004  Programming Languages:</b> Advanced knowledge of Python, LabVIEW and R</li>
+          <li><b>&#10004  Web:</b> HTML, CSS, Node JS, Vue JS, SQL, PSQL, MongoDB</li>
+          <li><b>&#10004  Operating systems::</b> Windows, Linux</li>
+          </ul>
+         
+         </div>
+           <br class="clear">
+         </div><br><br>
+ </div> 
+ <hr class="soft">
+<!-- Technical Skills end-->
+
+
+  <!-- Footer -->
+<footer>
+   
+   <div class="footbg">
+   	<div class="foottext">
+  <h3>Abdullah Al Mashwood</h3>
+  <div class="iconft">
+  <a href="mailto:#" target="_blank" data-toggle="tooltip" title="mail"><i class="foot fa fa-envelope"></i></a>
+  <a href="https://github.com/Mashwood" target="_blank" data-toggle="tooltip" title="github"><i class="footgit fa fa-github"></i></a>
+  <a href="#" target="_blank" data-toggle="tooltip" title="linkedin"><i class="foot fa fa-linkedin"></i></a>
+  <a href="#" target="_blank" data-toggle="tooltip" title="twitter"><i class="foot fa fa-twitter"></i></a>
+  </div><br>
+  <p>Physics at University of Lethbridge,
+  Canada</p>
+  <p>&#169<small> 2018 All rights reserved</small></p>
+</div>
+</footer>
+ <!-- Footer end -->
+
+  
+</body>
+</html>
