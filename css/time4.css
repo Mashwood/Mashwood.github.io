@@ -20,7 +20,7 @@
         content: " ";
         width: 3px;
         background-color: #d4d4d4;
-        left: 50%;
+        left: 20%;
         margin-left: -1.5px;
     }
 
@@ -94,7 +94,7 @@
             text-align: center;
             position: absolute;
             top: 16px;
-            left: 50%;
+            left: 23%;
             margin-left: -25px;
             background-color: #999999;
             z-index: 100;
@@ -105,7 +105,8 @@
         }
 
         .timeline1 > li.timeline-inverted > .timeline-panel {
-            float: right;
+            /*float: right;*/
+            left: 27%;
         }
 
             .timeline1 > li.timeline-inverted > .timeline-panel:before {
